@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "自己动手做一个 CN+MY 的 GeoIP 数据库"
-date: 2026-11-18
+date: 2026-11-12
 tags: [Surge, GeoIP, 折腾]
 ---
 

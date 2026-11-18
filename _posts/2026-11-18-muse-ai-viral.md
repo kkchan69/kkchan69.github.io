@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "火遍全球的 Muse AI，我就是那一千万人里的一个"
-date: 2026-11-19
+date: 2026-11-18
 tags: [AI, Muse, 智能体]
 ---
 

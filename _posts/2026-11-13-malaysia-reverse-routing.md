@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "在马来西亚用 Surge：反向分流模板怎么做"
-date: 2026-11-18 09:00:00 +0800
+date: 2026-11-13
 tags: [Surge, 分流, 马来西亚]
 ---
 
@@ -26,7 +26,7 @@ GEOIP,CN,🇨🇳 China Return
 
 `GEOIP,MY,DIRECT` 必须在上面一行的位置，而且独立于 `FINAL` 存在——这样无论我把 FINAL 设成什么，马来西亚 IP 永远直连，本地流量绝不出境。
 
-`GEOIP,MY` 能工作靠的是数据：官方 GeoIP 库当然也有 MY，但我用的是上一篇自建的 CN+MY 库（[《自己动手做一个 CN+MY 的 GeoIP 数据库》](/2026/11/18/geoip-cn-my.html)），一个 379 KB 的文件同时喂饱这两条规则。
+`GEOIP,MY` 能工作靠的是数据：官方 GeoIP 库当然也有 MY，但我用的是上一篇自建的 CN+MY 库（[《自己动手做一个 CN+MY 的 GeoIP 数据库》](/2026/11/12/geoip-cn-my.html)），一个 379 KB 的文件同时喂饱这两条规则。
 
 ## 回国靠什么
 

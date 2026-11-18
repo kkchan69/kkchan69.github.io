@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Surge 内置 Tailscale 踩坑：DNS lookup failed 的解法"
-date: 2026-11-18 10:00:00 +0800
+date: 2026-11-14
 tags: [Surge, Tailscale, 踩坑]
 ---
 

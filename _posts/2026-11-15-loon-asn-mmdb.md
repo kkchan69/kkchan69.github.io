@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Loon 的 ASN 库也能自建：从 BGP 路由表做一个 GeoLite2-ASN"
-date: 2026-11-18 11:00:00 +0800
+date: 2026-11-15
 tags: [Loon, GeoIP, ASN, 折腾]
 ---
 
@@ -9,7 +9,7 @@ tags: [Loon, GeoIP, ASN, 折腾]
 
 给我的规则仓库做 Loon 模板时发现：Loon 匹配 `IP-ASN` 规则（我有一组 Telegram 的 ASN 规则）用的是一个单独的 ASN 数据库，靠 `ipasn-url` 指定。一开始我图省事，用了第三方的 GeoLite2-ASN 镜像。
 
-但我上一篇刚把国家库换成自建的（[《自己动手做一个 CN+MY 的 GeoIP 数据库》](/2026/11/18/geoip-cn-my.html)），模板里所有数据库都从我自己仓库下载、就剩这一个挂在别人那里，怎么看怎么别扭。干脆也自建。
+但我上一篇刚把国家库换成自建的（[《自己动手做一个 CN+MY 的 GeoIP 数据库》](/2026/11/12/geoip-cn-my.html)），模板里所有数据库都从我自己仓库下载、就剩这一个挂在别人那里，怎么看怎么别扭。干脆也自建。
 
 ## 先泼一盆冷水：这个不能「只做 CN+MY」
 
